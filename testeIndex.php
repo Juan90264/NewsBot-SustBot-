@@ -78,7 +78,7 @@ if ($dataProgramador == "01:44" or $dataProgramador == "00:" . date("i")) {
 
 //$dataProgramador = fopen("C:\wamp64\www\NewsBot (SustBot)\dataProgramador.txt", "r") or die("Unable to open file!");// Se deixar somente o nome do arquivo com a extensão do arquivo ele vai precisar estar na mesma pasta desse arquivo
 //echo fread($dataProgramador,filesize("C:\wamp64\www\NewsBot (SustBot)\dataProgramador.txt"));
-$dataProgramador2 = file_get_contents("C:\wamp64\www\NewsBot (SustBot)\dataProgramador.txt");
+$dataProgramador2 = file_get_contents("dataProgramador.txt"); // C:\wamp64\www\NewsBot (SustBot)\
 //fclose($dataProgramador);
 
 
